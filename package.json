@@ -1,0 +1,17 @@
+{
+  "name": "mcp-banshee",
+  "version": "0.1.0",
+  "description": "Satirical MCP server that dispatches noisy mythical creatures to notify households.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "banshee": "src/cli.mjs"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "verify": "node src/verify.mjs"
+  }
+}
